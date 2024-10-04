@@ -26,9 +26,10 @@ Step 5: Preprocess test data, predict using the trained model, and visualize the
 
 
 ## Program
+
 #### Name: PAVITHRAN MJ
 #### Register Number: 212223240112
-
+```python
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -87,6 +88,7 @@ plt.xlabel('Time')
 plt.ylabel('Google Stock Price')
 plt.legend()
 plt.show()
+```
 ## Output
 ### True Stock Price, Predicted Stock Price vs time
 ![Screenshot 2024-10-04 113306](https://github.com/user-attachments/assets/14c8d171-e27e-409e-b3a4-7b1c62dc5bf7)

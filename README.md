@@ -78,7 +78,7 @@ X_test.shape
 
 predicted_stock_price_scaled = model.predict(X_test)
 predicted_stock_price = sc.inverse_transform(predicted_stock_price_scaled)
-print("Name:  PAVITRAN MJ        Register Number: 212223240112    ")
+print("Name:  PAVITHRAN MJ        Register Number: 212223240112    ")
 plt.plot(np.arange(0,1384),inputs, color='red', label = 'Test(Real) Google stock price')
 plt.plot(np.arange(60,1384),predicted_stock_price, color='blue', label = 'Predicted Google stock price')
 plt.title('Google Stock Price Prediction')

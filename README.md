@@ -99,3 +99,5 @@ plt.show()
 ![Screenshot 2024-10-04 113508](https://github.com/user-attachments/assets/e690782b-3a30-49c6-af8d-8706806a45be)
 
 ## Result
+
+Thus a Recurrent Neural Network model for stock price prediction is done.
